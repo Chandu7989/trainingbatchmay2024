@@ -1,0 +1,30 @@
+
+
+/*Temperature program
+ * Author Name:- Jammula Chandrahas;
+ * DOC:- 23-05-2024
+ */
+#include<stdio.h>
+int main()
+{
+	float temperature;
+	printf("Enter Temperature:- \n");
+	scanf("%f",&temperature);
+	if(temperature > 30)
+	{
+		printf("It's hot outside, stay hydrated!\n");
+	}
+	else if(temperature <= 30 && temperature >= 20)
+	{
+		printf("The weather is nice and warm\n");
+	}
+	else if(temperature < 20 && temperature >= 10)
+	{
+		printf("It's a bit chilly, wear a jacket.\n");
+	}
+	else if(temperature < 10)
+	{
+		printf("It's cold outside, stay warm!\n");
+	}
+	return 0;
+}
